@@ -16,5 +16,5 @@ print(repr(f.root_pane))
 f.save(open('test.bclyt', 'wb'))"""
 
 with open(argv[1], 'rb') as f:
-	layout = LayoutFile.from_file(f)
-	layout.save(open('test.bclyt', 'wb'))
+    layout = LayoutFile.from_file(f)
+    layout.save(open('test.bclyt', 'wb'))
